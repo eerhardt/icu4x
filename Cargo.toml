@@ -9,6 +9,7 @@ members = [
     "experimental/segmenter_lstm",
     "components/datetime",
     "components/decimal",
+    "components/dotnet_globalization",
     "components/ecma402",
     "components/capi",
     "components/icu",

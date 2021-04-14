@@ -137,7 +137,7 @@ use std::borrow::Cow;
 pub struct DateTimeFormat<'d> {
     locale: Locale,
     pattern: Pattern,
-    symbols: Cow<'d, provider::gregory::DateSymbolsV1>,
+    pub symbols: Cow<'d, provider::gregory::DateSymbolsV1>,
 }
 
 impl<'d> DateTimeFormat<'d> {
